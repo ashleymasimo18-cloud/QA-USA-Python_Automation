@@ -19,10 +19,6 @@ class TestUrbanRoutes:
         print("function created for select plan")
         pass
 
-    def test_select_plan_for_driver(self):
-        print("function created for select plan for driver")
-        pass
-
     def test_fill_phone_number(self):
         # Add in S8
         print("function created for fill phone number")
