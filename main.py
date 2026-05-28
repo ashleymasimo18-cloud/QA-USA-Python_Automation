@@ -4,6 +4,8 @@ import helpers
 class TestUrbanRoutes:
     @classmethod
     def setup_class(cls):
+        from selenium import webdriver
+        webdriver.Chrome()
         if helpers.is_url_reachable(data.URBAN_ROUTES_URL):
             print("Connected to the Urban Routes server")
         else:
@@ -26,7 +28,7 @@ class TestUrbanRoutes:
 
     def test_fill_card(self):
         # Add in S8
-        print("function created for fill card")
+        print("function created for fill card Ashley")
         pass
 
     def test_comment_for_driver(self):
