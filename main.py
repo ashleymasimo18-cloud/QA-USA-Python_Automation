@@ -13,7 +13,7 @@ class TestUrbanRoutes:
 
     def test_set_route(self):
         # Add in S8
-        print("function created for set route")
+        print("Ashley")
         pass
 
     def test_select_plan(self):
@@ -53,3 +53,7 @@ class TestUrbanRoutes:
         # Add in S8
         print("function created for car search model")
         pass
+
+    @classmethod
+    def teardown_class(cls):
+        cls.driver.quit()
